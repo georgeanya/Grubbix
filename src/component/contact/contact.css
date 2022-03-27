@@ -1,0 +1,42 @@
+.location_text{
+    display: flex;
+    justify-content: center;
+}
+.location{
+    padding: 5rem;
+}
+
+.location_img{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 850px) {
+    .location{
+        padding: 1rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+    }
+    .location_img img{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .location{
+        padding: 1rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .location_img img{
+        display: none;
+    }
+    .location_text{
+        width: 100%;
+    }
+}

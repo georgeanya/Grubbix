@@ -1,0 +1,21 @@
+.navbar{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.navbar_link{
+    display: flex;
+    justify-content: right;
+}
+.navbar_link_item{
+    font-size: 18px;
+}
+.navbar_brand{
+    font-size: 22px;
+}
+
+@media screen and (max-width: 850px){
+    .navbar{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

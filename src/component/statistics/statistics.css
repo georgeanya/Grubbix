@@ -1,0 +1,26 @@
+.statistics_template{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+@media screen and (max-width: 850px) {
+    .statistics_template{
+        flex-direction: row;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 1rem;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .statistics_template{
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        gap: 10px;
+    }
+}

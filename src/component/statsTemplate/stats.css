@@ -1,0 +1,20 @@
+.stats_template{
+    padding: 2rem;
+}
+.stats_template h1{
+    text-align: center;
+}
+.stats_template p{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 850px) {
+    .stats_template p{
+        font-size: 15px;
+    }
+    .stats_template{
+        padding: 0px;
+    }
+}

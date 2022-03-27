@@ -1,0 +1,41 @@
+.menu{
+    padding-top:12rem;
+    padding-bottom: 12rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu h1{
+    font-size: 40px;
+    
+}
+
+.menu p{
+    
+    font-size: 16px;
+}
+
+.menu button{
+    width: 150px;
+    border-radius: 25px;
+    margin: 2rem;
+}
+@media screen and (max-width: 850px) {
+    .menu{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .menu button{
+        width: 120px;
+        border-radius: 25px;
+        margin: 1rem;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+}
