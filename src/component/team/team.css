@@ -1,0 +1,31 @@
+.container_{
+    background-color: black;
+    padding: 5rem 0rem;
+}
+.container_ h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container_ ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pdB_35{
+    width: 400px;
+    padding: 0px 20px;
+}
+.image-block{
+    height: 60px;
+    display: flex!important;
+    justify-content: center;
+
+}
+.inner{
+    margin: 0px auto;
+    text-align: center;
+}
+.inner p{
+    color: white;
+}

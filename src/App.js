@@ -7,6 +7,7 @@ import Menu from './component/menu/menu'
 import Navbar from './component/navbar/navbar'
 import Statistics from './component/statistics/statistics'
 import Footer from './component/footer/footer'
+import Team from './component/team/team'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Statistics/>
       <About/>
       <Menu/>
+      <Team/>
       <Contact/>
       <Footer/>  
     </div>
