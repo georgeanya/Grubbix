@@ -1,12 +1,12 @@
 import React from 'react'
-import logo2 from '../../assets/logo2.png'
+import logo1 from '../../assets/logo1.png'
 import './about.css'
 
 const About = () => {
   return (
     <div class="row about" id='about'>
       <div class="col about_img">
-        <img src={logo2} alt='header logo'/>
+        <img src={logo1} alt='header logo'/>
       </div>
       <div class="col-7 about_text">
         <h1>Our Story</h1>

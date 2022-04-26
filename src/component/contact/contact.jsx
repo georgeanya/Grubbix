@@ -7,8 +7,8 @@ import Location from '../location/location'
 const Contact = () => {
   return (
     <div className='location' id='contact'>
-      <h2 className='location_header'>Location</h2>
-      <p></p>
+      <h1 className='location_header'> Our Location</h1>
+      <p className='location_header' >Our Grubbix based in Lagos, Nigeria</p>
         <div class="row contact" >
           <div class="col-6 location_text">
             <Location/>

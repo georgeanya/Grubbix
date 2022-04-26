@@ -8,14 +8,13 @@
     text-align: center;
 }
 
-.menu h1{
+h1{
     font-size: 40px;
     
 }
-
-.menu p{
+p{
     
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .menu button{
@@ -25,7 +24,7 @@
 }
 @media screen and (max-width: 850px) {
     .menu{
-        padding: 1rem;
+        padding: 5rem 1rem;
         flex-direction: column;
     }
     .menu button{
@@ -36,6 +35,13 @@
     }
     h2{
         font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+    p{
+        font-size: 15px;
     }
     
 }

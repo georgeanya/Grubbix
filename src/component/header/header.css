@@ -22,6 +22,8 @@
     border-radius: 25px;
     margin-top: 3rem;
     margin-right: 2rem;
+    color: white;
+    background-color: rgb(34, 34, 34);
 }
 
 .header_img{

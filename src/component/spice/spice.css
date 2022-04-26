@@ -1,0 +1,48 @@
+.spice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.spice_card{
+    position: relative;
+    margin: 1rem;
+}
+.spice_image{
+    height: 221px;
+    width: 340px;
+    opacity: 0.5;
+    display: block;
+    transition: ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.spice_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.spice_card:hover .spice_image {
+    opacity: 1;
+  }
+  
+  .spice_card:hover .middle {
+    opacity: 0;
+  }
+
+.occasion{
+    padding: 3rem 1rem;
+}
+.occasion_text{
+    text-align: center;
+    margin-bottom: 2rem;
+}

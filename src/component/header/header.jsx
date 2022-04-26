@@ -13,8 +13,8 @@ const Header = () => {
             successful at an affordable price.
         </p>
         <div className='menu_button'>
-        <button type='button' className='btn btn-lg btn-dark'>Menu</button>
-        <button type='button' className='btn btn-lg btn-dark'>Order Now</button>
+        <button type='button' className='btn btn-lg '>Menu</button>
+        <button type='button' className='btn btn-lg '>Order Now</button>
         </div>
       </div>
       <div class="col header_img">

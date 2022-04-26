@@ -4,6 +4,7 @@
 }
 .location{
     padding: 5rem;
+    
 }
 
 .location_img{
@@ -35,6 +36,7 @@
     }
     .location_img img{
         display: none;
+        height: 0px;
     }
     .location_text{
         width: 100%;

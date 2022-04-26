@@ -8,13 +8,15 @@ import Navbar from './component/navbar/navbar'
 import Statistics from './component/statistics/statistics'
 import Footer from './component/footer/footer'
 import Team from './component/team/team'
+import Spice from './component/spice/spice'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Header/>
+      <Header/>      
       <Statistics/>
+      <Spice/>
       <About/>
       <Menu/>
       <Team/>
