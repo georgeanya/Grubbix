@@ -34,10 +34,10 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .location_img img{
+    /* .location_img img{
         display: none;
         height: 0px;
-    }
+    } */
     .location_text{
         width: 100%;
     }

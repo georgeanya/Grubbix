@@ -36,12 +36,11 @@
     .about_text p{
         font-size: 15px;
     }
-    .about_img img{
+    /* .about_img img{
         /* display: flex;
         justify-content: center;
         width: 250px;
         height: 250px; */
-        display: none;
-        height: 0px;
-    }
+        /* display: none;
+        height: 0px; */
 }
